@@ -21,12 +21,12 @@ public class Main {
 
         Tree tree = new Tree(tab);
 
-//        System.out.print("Pre order ");
-//        tree.preOrder();
-//        System.out.print("In order: ");
-//        tree.inOrder();
-//        System.out.print("Post order: ");
-//        tree.postOrder();
+        System.out.print("Pre order ");
+        tree.preOrder();
+        System.out.print("In order: ");
+        tree.inOrder();
+        System.out.print("Post order: ");
+        tree.postOrder();
         System.out.print("BFS: ");
         tree.treeBFS();
 
